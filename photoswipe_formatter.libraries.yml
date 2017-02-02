@@ -1,0 +1,24 @@
+photoswipe:
+  version: 4.1.1
+  license:
+    name: MIT
+    gpl-compatible: false
+  css:
+    component:
+      /bower_components/photoswipe/dist/photoswipe.css: {}
+      /bower_components/photoswipe/dist/default-skin/default-skin.css: {}
+  js:
+    /bower_components/photoswipe/dist/photoswipe.min.js: { minified: true }
+    /bower_components/photoswipe/dist/photoswipe-ui-default.min.js: { minified: true }
+
+photoswipe_formatter:
+  version: VERSION
+  css:
+    component:
+      css/photoswipe_formatter.css: {}
+  js:
+    js/photoswipe_formatter.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - photoswipe_formatter/photoswipe

@@ -1,0 +1,13 @@
+{
+  "name": "flowconcept/photoswipe_formatter",
+  "description": "Views display plugin with isotope integration.",
+  "version": "master",
+  "type": "drupal-module",
+  "homepage": "https://github.com/flowconcept/photoswipe_formatter",
+  "support": {
+    "issues": "https://github.com/flowconcept/photoswipe_formatter/issues"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": { }
+}

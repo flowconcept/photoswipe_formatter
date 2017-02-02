@@ -1,0 +1,6 @@
+name: PhotoSwipe Formatter
+type: module
+description: 'Field formatter for displaying images as photoswipe lightbox.'
+core: 8.x
+
+
