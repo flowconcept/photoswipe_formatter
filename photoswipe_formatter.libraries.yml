@@ -5,11 +5,11 @@ photoswipe:
     gpl-compatible: false
   css:
     component:
-      /bower_components/photoswipe/dist/photoswipe.css: {}
-      /bower_components/photoswipe/dist/default-skin/default-skin.css: {}
+      /libraries/photoswipe/dist/photoswipe.css: {}
+      /libraries/photoswipe/dist/default-skin/default-skin.css: {}
   js:
-    /bower_components/photoswipe/dist/photoswipe.min.js: { minified: true }
-    /bower_components/photoswipe/dist/photoswipe-ui-default.min.js: { minified: true }
+    /libraries/photoswipe/dist/photoswipe.min.js: { minified: true }
+    /libraries/photoswipe/dist/photoswipe-ui-default.min.js: { minified: true }
 
 photoswipe_formatter:
   version: VERSION

@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Defines library requirements and install routines.
+ */
+
+/**
+ * Implements hook_requirements().
+ */
+function photoswipe_formatter_requirements($phase) {
+
+  $requirements = [];
+
+  $path = DRUPAL_ROOT . '/libraries/photoswipe/dist/photoswipe.min.js';
+
+  if (!file_exists($path)) {
+    $requirements['photoswipe'] = array(
+      'title' => t('photoswipe library missing'),
+      'description' => t(
+        'Seo preview requires the photoswipe library. Download https://github.com/dimsemenov/PhotoSwipe/releases/latest and extract it to /libraries/photoswipe.'
+      ),
+      'severity' => REQUIREMENT_ERROR,
+    );
+  }
+
+  return $requirements;
+}
