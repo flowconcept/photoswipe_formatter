@@ -18,7 +18,7 @@ function photoswipe_formatter_requirements($phase) {
     $requirements['photoswipe'] = array(
       'title' => t('photoswipe library missing'),
       'description' => t(
-        'Seo preview requires the photoswipe library. Download https://github.com/dimsemenov/PhotoSwipe/releases/latest and extract it to /libraries/photoswipe.'
+        'Photoswipe formatter requires the photoswipe library. Download https://github.com/dimsemenov/PhotoSwipe/releases/latest and extract it to /libraries/photoswipe.'
       ),
       'severity' => REQUIREMENT_ERROR,
     );
